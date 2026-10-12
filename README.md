@@ -34,13 +34,10 @@ If you'd rather not use R, Claude can draw the infographic too: see [Path A](pro
 goodreads-reading-infographic/
 ├── README.md
 ├── goodreads_infographic.R            # draws the infographic from the cleaned CSV
-├── data/
-│   └── goodreads_cleaned.csv          # the cleaned library (yours goes here)
-├── output/
-│   └── reading_infographic.png        # the script writes here
-└── prompts/
-    ├── path_a_full_infographic.md     # Claude cleans the data and draws the infographic
-    └── path_b_cleaned_data_only.md    # Claude cleans the data; you run the R script
+├── goodreads_cleaned.csv          # the cleaned library (yours goes here)
+├── reading_infographic.png        # the script writes here
+└── path_a_full_infographic.md     # Claude cleans the data and draws the infographic
+└── path_b_cleaned_data_only.md    # Claude cleans the data; you run the R script
 ```
 
 ## Step 1: Export your Goodreads library
