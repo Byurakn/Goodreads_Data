@@ -2,7 +2,7 @@
 
 Turn your Goodreads library into one infographic of everything you've read: where your authors come from, who wrote your books, which languages you read in, and what you rate highest.
 
-![Example infographic](output/reading_infographic.png)
+![Example infographic](reading_infographic.png)
 
 The example above is drawn from my own library (479 books), included as `data/goodreads_cleaned.csv`.
 
